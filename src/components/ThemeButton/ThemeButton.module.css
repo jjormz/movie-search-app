@@ -1,0 +1,19 @@
+.theme__button {
+    margin-top: 1rem;
+    padding: 5px;
+    height: 2rem;
+    width: 7rem;
+    cursor: pointer;
+    color: white;
+    background: #404040;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 0 10px grey;
+    border-radius: 1rem;
+}
+
+[data-theme="dark"] .theme__button {
+    color: black;
+    background: white;
+    box-shadow: 0 0 10px white;
+}

@@ -1,0 +1,6 @@
+.list__container {
+    margin-top: 3rem;
+    column-count: 5;
+    column-gap: 2rem;
+    min-height: 36.7rem;
+}

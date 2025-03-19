@@ -1,0 +1,15 @@
+.title {
+    margin-top: 2rem;
+    font-size: 3.5rem;
+    color: black;
+}
+
+.colorized__word {
+    background: linear-gradient(90deg, #ff0000, #6029eb);
+    color: transparent;
+    background-clip: text;
+}
+
+[data-theme="dark"] .title {
+    color: white;
+}
