@@ -13,7 +13,7 @@ const SearchBar: FC<SearchBarProps> = ({ setQuery }) => {
     };
 
     return (
-        <div>
+        <div className={styles.search__container}>
             <input
                 type="text"
                 className={styles.search__bar}

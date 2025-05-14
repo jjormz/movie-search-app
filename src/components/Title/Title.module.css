@@ -1,3 +1,8 @@
+.title__container {
+    display: flex;
+    max-width: 80vw;
+}
+
 .title {
     margin-top: 2rem;
     font-size: 3.5rem;

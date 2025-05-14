@@ -4,3 +4,30 @@
     column-gap: 2rem;
     min-height: 36.7rem;
 }
+
+@media (max-width: 1820px) {
+    .list__container {
+        column-count: 4;
+        column-gap: 2rem;
+    }
+}
+
+@media (max-width: 1420px) {
+    .list__container {
+        column-count: 3;
+        column-gap: 2rem;
+    }
+}
+
+@media (max-width: 1120px) {
+    .list__container {
+        column-count: 2;
+        column-gap: 2rem;
+    }
+}
+
+@media (max-width: 720px) {
+    .list__container {
+        column-count: 1;
+    }
+}

@@ -1,6 +1,10 @@
+.search__container {
+    max-width: fit-content;
+}
+
 .search__bar {
     margin-top: 4rem;
-    width: 50rem;
+    width: 60vw;
     height: 2rem;
     padding: 7px;
     border-color: black;
@@ -32,4 +36,13 @@
     background: #404040;
     color: white;
     border-color: white;
+}
+
+@media (max-width: 600px) {
+    .search__button {
+        width: 20vw;
+    }
+    .search__bar {
+        width: 60vw;
+    }
 }
